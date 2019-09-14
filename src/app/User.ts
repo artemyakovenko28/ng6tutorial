@@ -9,17 +9,17 @@ export class User {
   website: string;
   company: Company;
 
-  constructor(id: number, name: string, username: string, email: string,
-              address: Address, phone: string, website: string, company: Company) {
-    this.id = id;
-    this.name = name;
-    this.username = username;
-    this.email = email;
-    this.address = address;
-    this.phone = phone;
-    this.website = website;
-    this.company = company;
-  }
+  // constructor(id: number, name: string, username: string, email: string,
+  //             address: Address, phone: string, website: string, company: Company) {
+  //   this.id = id;
+  //   this.name = name;
+  //   this.username = username;
+  //   this.email = email;
+  //   this.address = address;
+  //   this.phone = phone;
+  //   this.website = website;
+  //   this.company = company;
+  // }
 }
 
 class Address {
@@ -30,13 +30,13 @@ class Address {
   zipcode: string;
   geo: AddressGeo;
 
-  constructor(street: string, suite: string, city: string, zipcode: string, geo: AddressGeo) {
-    this.street = street;
-    this.suite = suite;
-    this.city = city;
-    this.zipcode = zipcode;
-    this.geo = geo;
-  }
+  // constructor(street: string, suite: string, city: string, zipcode: string, geo: AddressGeo) {
+  //   this.street = street;
+  //   this.suite = suite;
+  //   this.city = city;
+  //   this.zipcode = zipcode;
+  //   this.geo = geo;
+  // }
 }
 
 class AddressGeo {
@@ -55,9 +55,9 @@ class Company {
   catchPhrase: string;
   bs: string;
 
-  constructor(name: string, catchPhrase: string, bs: string) {
-    this.name = name;
-    this.catchPhrase = catchPhrase;
-    this.bs = bs;
-  }
+  // constructor(name: string, catchPhrase: string, bs: string) {
+  //   this.name = name;
+  //   this.catchPhrase = catchPhrase;
+  //   this.bs = bs;
+  // }
 }
